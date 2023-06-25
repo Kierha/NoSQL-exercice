@@ -1,0 +1,19 @@
+{
+  "name": "projet-no-sql",
+  "version": "1.0.0",
+  "description": "Install and use a NoSQL Database (which is not using Cloud), and create a CRUD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/db.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "level": "^8.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
