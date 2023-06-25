@@ -7,6 +7,19 @@ Ce projet a pour objectif de sélectionner une base de données NoSQL, de l'inst
 - Node.js (version minimale recommandée : 12.0.0 ou supérieure) : langage de développement. [Téléchargement de Node.js](https://nodejs.org)
 - LevelDB : base de données NoSQL. [Documentation officielle de LevelDB](https://github.com/Level/level)
 
+## A propos de LevelDB
+
+LevelDB est une base de données NoSQL open source, développée par Google. Elle est conçue pour être rapide, légère et efficace, offrant une solution de stockage de clé-valeur performante. LevelDB est implémentée en C++ et fournit une API simple pour interagir avec la base de données.
+LevelDB a été conçue pour fournir des performances élevées et une grande flexibilité, la rendant adaptée à de nombreux cas d'utilisation. Elle est utilisée par de nombreuses applications, telles que Google Chrome, Google BigTable, Google Play, etc.
+
+Principales caractéristiques de LevelDB :
+
+- Stockage de clé-valeur : LevelDB stocke les données sous forme de paires clé-valeur, permettant une récupération rapide des valeurs en fonction des clés.
+- Performances élevées : LevelDB est conçue pour fournir des performances optimales, en exploitant des techniques d'indexation et de mise en cache efficaces.
+- Compression des données : LevelDB prend en charge la compression des données, permettant d'économiser de l'espace de stockage tout en maintenant de bonnes performances.
+- Tolérance aux pannes : LevelDB intègre des mécanismes de récupération automatique en cas de pannes ou d'arrêts inattendus, garantissant l'intégrité des données.
+- LevelDB est une solution polyvalente et peut être utilisée dans différents scénarios, tels que le stockage de données, les caches, les journaux d'événements, etc.
+
 ## Installation
 
 1. Installer Node.js en téléchargeant la version TLS depuis le site officiel.
